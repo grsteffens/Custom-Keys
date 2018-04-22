@@ -37,9 +37,6 @@
     configuration.keyTappedTextColor = [UIColor whiteColor];
     configuration.keyTappedBackgroundColor = [UIColor orangeColor];
     configuration.keyCornerRadius = 1.5f;
-    configuration.numberKeyFont = [UIFont systemFontOfSize:30.0f];
-    configuration.customLeftKeyFont = [UIFont systemFontOfSize:19.0f];
-    configuration.customRightKeyFont = [configuration.customLeftKeyFont copy];
     configuration.keySpacing = 7.0f;
     configuration.maxDollarAmount = [NSDecimalNumber decimalNumberWithString:@"10000000"];
     

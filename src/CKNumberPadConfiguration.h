@@ -161,19 +161,19 @@ typedef NS_ENUM(NSInteger, DoubleKeyBehavior)
 @property (nonatomic) CustomKeyAction rightButtonAction;
 
 /**
- The font for the number keys
+ The font name for the number keys
  */
-@property (nonatomic) UIFont *numberKeyFont;
+@property (nonatomic) NSString *numberKeyFontName;
 
 /**
- The font for the left custom key
+ The font name for the left custom key
  */
-@property (nonatomic) UIFont *customLeftKeyFont;
+@property (nonatomic) NSString *customLeftKeyFontName;
 
 /**
- The font for the right custom key
+ The font name for the right custom key
  */
-@property (nonatomic) UIFont *customRightKeyFont;
+@property (nonatomic) NSString *customRightKeyFontName;
 
 /**
  The color of the keys' text - default is [UIColor blackColor]
